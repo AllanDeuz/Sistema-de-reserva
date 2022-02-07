@@ -2,8 +2,8 @@ import React from 'react';
 
 const Cotiza = () => (
     
-    <div className='cotiza'>
-        <h2>Realiza tu Cotización</h2>
+    <div className='cotiza' data-aos="flip-right">
+        <h2 >Realiza tu Cotización</h2>
 
         <div class="form">
 

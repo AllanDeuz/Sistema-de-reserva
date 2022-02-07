@@ -50,7 +50,9 @@ ul.navbar li a:hover {
 
 /*INICIO MAIN*/
 
-
+main.main{
+  margin-bottom: 18vh;
+}
 
 .container {
   width: 95%; /*total de tamaño a usar en pagina*/

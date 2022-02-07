@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Horario = () => {
-  return    <div className='horario'>
+  return    <div className='horario' data-aos="fade-up">
 
                 <h2>Horario de Atención</h2>
                 <h3>Lunes a Viernes:</h3>

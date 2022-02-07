@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Contacto = () => {
-  return <div className='contacto'>
+  return <div className='contacto' data-aos="fade-up">
 
             <h2>Medios de Contacto</h2>
 

@@ -10,7 +10,7 @@ const Inicio = () => (
 
             <main class="main">
 
-                <div class="container">
+                <div class="container" data-aos="fade-up">
 
                     <main class="contenido-principal">
 
