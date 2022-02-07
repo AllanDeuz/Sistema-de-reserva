@@ -1,0 +1,214 @@
+img.pie {
+  max-height: 11vh;
+  object-fit: cover;
+}
+
+.leaflet-container {
+  margin-top: 1vh;
+  width: 100%;
+  height: 50vh;
+}
+
+.footer {
+  background: rgb(255, 255, 255);
+  text-align: center;
+  border-top: 1px solid black;
+  flex-basis: 20rem;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.footer-left {
+  height: 80vh;
+  max-height: 80vh;
+}
+
+.footer-right {
+  height: 80vh;
+  max-height: 80vh;
+
+  h2{
+    font-size: 180%;
+    margin-top: 10vh;
+  }
+}
+
+.marcas {
+  margin-top: 21vh;
+  border-top: 1px solid rgba(0, 0, 0, 0.24);
+  h6 {
+    margin-top: 2vh;
+  }
+  h6.admin{
+      border-top: 1px solid black;
+      background: rgb(76, 151, 236);
+  }
+}
+
+//FORMULARIO
+
+.cotiza{
+    h2{
+        font-size: 180%;
+        margin-top: 10vh;
+      }
+}
+
+.form {
+  border-radius: 6%;
+  justify-content: space-around;
+
+  .inputs {
+    background: rgb(66, 182, 143);
+    height: 50vh;
+    max-height: 50vh;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+
+    input.texto {
+      width: 100%;
+      height: 5vh;
+      margin-top: 4vh;
+      margin-bottom: 2vh;
+      border-radius: 25%;
+      border: 0;
+      background: rgb(47, 133, 133);
+    }
+
+    input.texto::placeholder {
+      color: white;
+      text-align: center;
+    }
+
+    textarea.ttexto {
+      width: 100%;
+      height: 10vh;
+      min-height: 5vh;
+      max-height: 12vh;
+      margin-bottom: 1vh;
+      border-radius: 25%;
+      border: 0;
+      background: rgb(47, 133, 133);
+    }
+
+    textarea.ttexto::placeholder {
+      color: white;
+      text-align: center;
+    }
+
+    input.number {
+      width: 100%;
+      height: 5vh;
+      margin-bottom: 2vh;
+      border-radius: 25%;
+      border: 0;
+      background: rgb(47, 133, 133);
+    }
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    input.number::placeholder {
+      color: white;
+      text-align: center;
+    }
+
+    button.boton {
+      margin-top: 1vh;
+      border-radius: 50%;
+      height: 5vh;
+      background: rgb(145, 207, 169);
+      border: solid 1px rgb(0, 0, 0);
+
+      h3.enviar {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 100%;
+        margin: auto;
+      }
+    }
+  }
+}
+
+//FIN FORMULARIO
+
+.horario {
+  margin-top: 15vh;
+  background: rgb(255, 245, 159);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.637);
+
+  h2 {
+    font-size: 140%;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+
+  h3 {
+    font-size: 130%;
+    margin: auto;
+    margin-bottom: 1vh;
+  }
+
+  h4 {
+    font-size: 110%;
+    margin: auto;
+    margin-bottom: 1vh;
+  }
+}
+
+.contacto {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+  width: 50%;
+  border-radius: 4%;
+  background-color: rgb(210, 154, 212);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.74);
+
+  h2 {
+    font-size: 140%;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+
+  h3 {
+    font-size: 130%;
+    margin: auto;
+    margin-bottom: 1vh;
+    text-align: center;
+    word-break: break-word;
+  }
+
+  .bi.bi-instagram:hover{
+    color: rgb(230, 62, 216);
+  }
+
+  .bi.bi-whatsapp:hover{
+      color: rgb(49, 201, 49);
+  }
+
+  .bi.bi-envelope:hover{
+      color: rgb(0, 0, 255);
+  }
+
+}
+
+h3.avda {
+  font-size: 100%;
+}
+
+svg.bi.bi {
+    margin: 10px;
+    width: 3vh;
+    color: black;
+}
+
+

@@ -1,0 +1,193 @@
+img.pie {
+  max-height: 11vh;
+  object-fit: cover;
+}
+
+.leaflet-container {
+  margin-top: 1vh;
+  width: 100%;
+  height: 50vh;
+}
+
+.footer {
+  background: white;
+  text-align: center;
+  border-top: 1px solid black;
+  flex-basis: 20rem;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.footer-left {
+  height: 80vh;
+  max-height: 80vh;
+}
+
+.footer-right {
+  height: 80vh;
+  max-height: 80vh;
+}
+.footer-right h2 {
+  font-size: 180%;
+  margin-top: 10vh;
+}
+
+.marcas {
+  margin-top: 21vh;
+  border-top: 1px solid rgba(0, 0, 0, 0.24);
+}
+.marcas h6 {
+  margin-top: 2vh;
+}
+.marcas h6.admin {
+  border-top: 1px solid black;
+  background: #4c97ec;
+}
+
+.cotiza h2 {
+  font-size: 180%;
+  margin-top: 10vh;
+}
+
+.form {
+  border-radius: 6%;
+  justify-content: space-around;
+}
+.form .inputs {
+  background: #42b68f;
+  height: 50vh;
+  max-height: 50vh;
+  border-radius: 10%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.form .inputs input.texto {
+  width: 100%;
+  height: 5vh;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  border-radius: 25%;
+  border: 0;
+  background: #2f8585;
+}
+.form .inputs input.texto::placeholder {
+  color: white;
+  text-align: center;
+}
+.form .inputs textarea.ttexto {
+  width: 100%;
+  height: 10vh;
+  min-height: 5vh;
+  max-height: 12vh;
+  margin-bottom: 1vh;
+  border-radius: 25%;
+  border: 0;
+  background: #2f8585;
+}
+.form .inputs textarea.ttexto::placeholder {
+  color: white;
+  text-align: center;
+}
+.form .inputs input.number {
+  width: 100%;
+  height: 5vh;
+  margin-bottom: 2vh;
+  border-radius: 25%;
+  border: 0;
+  background: #2f8585;
+}
+.form .inputs input[type=number]::-webkit-inner-spin-button,
+.form .inputs input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form .inputs input.number::placeholder {
+  color: white;
+  text-align: center;
+}
+.form .inputs button.boton {
+  margin-top: 1vh;
+  border-radius: 50%;
+  height: 5vh;
+  background: #91cfa9;
+  border: solid 1px black;
+}
+.form .inputs button.boton h3.enviar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  margin: auto;
+}
+
+.horario {
+  margin-top: 15vh;
+  background: #fff59f;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.637);
+}
+.horario h2 {
+  font-size: 140%;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+.horario h3 {
+  font-size: 130%;
+  margin: auto;
+  margin-bottom: 1vh;
+}
+.horario h4 {
+  font-size: 110%;
+  margin: auto;
+  margin-bottom: 1vh;
+}
+
+.contacto {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+  width: 50%;
+  border-radius: 4%;
+  background-color: #d29ad4;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.74);
+}
+.contacto h2 {
+  font-size: 140%;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+.contacto h3 {
+  font-size: 130%;
+  margin: auto;
+  margin-bottom: 1vh;
+  text-align: center;
+  word-break: break-word;
+}
+.contacto .bi.bi-instagram:hover {
+  color: #e63ed8;
+}
+.contacto .bi.bi-whatsapp:hover {
+  color: #31c931;
+}
+.contacto .bi.bi-envelope:hover {
+  color: blue;
+}
+
+h3.avda {
+  font-size: 100%;
+}
+
+svg.bi.bi {
+  margin: 10px;
+  width: 3vh;
+  color: black;
+}
+
+img.logo {
+  width: 30%;
+  max-width: 214px;
+}
+
+/*# sourceMappingURL=style.css.map */
