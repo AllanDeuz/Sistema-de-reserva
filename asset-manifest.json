@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Sistema-de-Reserva/static/css/main.62b94732.css",
+    "main.js": "/Sistema-de-Reserva/static/js/main.d1c5fcf3.js",
+    "static/media/marcas.GIF": "/Sistema-de-Reserva/static/media/marcas.4dda5860054402e3d300.GIF",
+    "static/media/portada.jpg": "/Sistema-de-Reserva/static/media/portada.887bc07ab0f02ab1b458.jpg",
+    "static/media/im3.jpg": "/Sistema-de-Reserva/static/media/im3.0fb049ab694faf0fb582.jpg",
+    "static/media/im8.jpg": "/Sistema-de-Reserva/static/media/im8.4cf7d5b1cae9ff4ec336.jpg",
+    "static/media/im7.jpg": "/Sistema-de-Reserva/static/media/im7.805265e679516946bfce.jpg",
+    "static/media/im11.JPG": "/Sistema-de-Reserva/static/media/im11.7c8c5705935bb3a9ba71.JPG",
+    "static/media/im1.jpg": "/Sistema-de-Reserva/static/media/im1.6f49f7dd2d8300c69680.jpg",
+    "static/media/im2.jpg": "/Sistema-de-Reserva/static/media/im2.736e4cce7df4736514cd.jpg",
+    "static/media/im12.JPG": "/Sistema-de-Reserva/static/media/im12.07a59150a65452adc67e.JPG",
+    "static/media/logo3.png": "/Sistema-de-Reserva/static/media/logo3.624ca54dd3d8013c68af.png",
+    "index.html": "/Sistema-de-Reserva/index.html",
+    "main.62b94732.css.map": "/Sistema-de-Reserva/static/css/main.62b94732.css.map",
+    "main.d1c5fcf3.js.map": "/Sistema-de-Reserva/static/js/main.d1c5fcf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62b94732.css",
+    "static/js/main.d1c5fcf3.js"
+  ]
+}
