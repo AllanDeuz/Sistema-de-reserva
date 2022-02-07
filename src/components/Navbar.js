@@ -31,7 +31,7 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static"  style={{ background: "#00c2f3"}}>
+    <AppBar position="fixed"  style={{ background: "#00c2f3"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
         <Link to="/" style={{ textDecoration: 'none'}}><Typography

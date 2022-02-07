@@ -1,5 +1,5 @@
 img.pie {
-  max-height: 11vh;
+  max-height: 12vh;
   object-fit: cover;
 }
 
@@ -59,6 +59,7 @@ img.pie {
   max-height: 50vh;
   border-radius: 10%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  transition: all 0.3s ease-in-out;
 }
 .form .inputs input.texto {
   width: 100%;
@@ -68,10 +69,17 @@ img.pie {
   border-radius: 25%;
   border: 0;
   background: #2f8585;
+  transition: all 0.3s ease-in-out;
 }
 .form .inputs input.texto::placeholder {
   color: white;
   text-align: center;
+}
+.form .inputs input.texto:hover {
+  background: #37b6b6;
+}
+.form .inputs input.texto:focus {
+  background: #37b6b6;
 }
 .form .inputs textarea.ttexto {
   width: 100%;
@@ -79,13 +87,17 @@ img.pie {
   min-height: 5vh;
   max-height: 12vh;
   margin-bottom: 1vh;
-  border-radius: 25%;
+  border-radius: 5%;
   border: 0;
   background: #2f8585;
+  transition: all 0.3s ease-in-out;
 }
 .form .inputs textarea.ttexto::placeholder {
   color: white;
   text-align: center;
+}
+.form .inputs textarea.ttexto:hover {
+  background: #37b6b6;
 }
 .form .inputs input.number {
   width: 100%;
@@ -94,6 +106,7 @@ img.pie {
   border-radius: 25%;
   border: 0;
   background: #2f8585;
+  transition: all 0.3s ease-in-out;
 }
 .form .inputs input[type=number]::-webkit-inner-spin-button,
 .form .inputs input[type=number]::-webkit-outer-spin-button {
@@ -103,6 +116,9 @@ img.pie {
 .form .inputs input.number::placeholder {
   color: white;
   text-align: center;
+}
+.form .inputs input.number:hover {
+  background: #37b6b6;
 }
 .form .inputs button.boton {
   margin-top: 1vh;
@@ -116,6 +132,13 @@ img.pie {
   font-size: 100%;
   margin: auto;
 }
+.form .inputs button.boton:hover {
+  background: #37b6b6;
+}
+.form .inputs:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.925);
+  background: #68e4ba;
+}
 
 .horario {
   margin-top: 15vh;
@@ -125,6 +148,7 @@ img.pie {
   margin-right: auto;
   border-radius: 4%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.637);
+  transition: all 0.3s ease-in-out;
 }
 .horario h2 {
   font-size: 140%;
@@ -143,6 +167,11 @@ img.pie {
   margin-bottom: 1vh;
 }
 
+.horario:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.925);
+  background: #f0e68a;
+}
+
 .contacto {
   margin-left: auto;
   margin-right: auto;
@@ -151,6 +180,7 @@ img.pie {
   border-radius: 4%;
   background-color: #d29ad4;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.74);
+  transition: all 0.3s ease-in-out;
 }
 .contacto h2 {
   font-size: 140%;
@@ -173,6 +203,11 @@ img.pie {
 }
 .contacto .bi.bi-envelope:hover {
   color: blue;
+}
+
+.contacto:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.925);
+  background-color: #dea5e0;
 }
 
 h3.avda {

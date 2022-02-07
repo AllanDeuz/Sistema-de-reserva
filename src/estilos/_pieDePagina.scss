@@ -1,5 +1,5 @@
 img.pie {
-  max-height: 11vh;
+  max-height: 12vh;
   object-fit: cover;
 }
 
@@ -27,7 +27,7 @@ img.pie {
   height: 80vh;
   max-height: 80vh;
 
-  h2{
+  h2 {
     font-size: 180%;
     margin-top: 10vh;
   }
@@ -39,19 +39,20 @@ img.pie {
   h6 {
     margin-top: 2vh;
   }
-  h6.admin{
-      border-top: 1px solid black;
-      background: rgb(76, 151, 236);
+
+  h6.admin {
+    border-top: 1px solid black;
+    background: rgb(76, 151, 236);
   }
 }
 
 //FORMULARIO
 
-.cotiza{
-    h2{
-        font-size: 180%;
-        margin-top: 10vh;
-      }
+.cotiza {
+  h2 {
+    font-size: 180%;
+    margin-top: 10vh;
+  }
 }
 
 .form {
@@ -64,6 +65,7 @@ img.pie {
     max-height: 50vh;
     border-radius: 10%;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transition: all 0.3s ease-in-out;
 
     input.texto {
       width: 100%;
@@ -73,11 +75,20 @@ img.pie {
       border-radius: 25%;
       border: 0;
       background: rgb(47, 133, 133);
+      transition: all 0.3s ease-in-out;
     }
 
     input.texto::placeholder {
       color: white;
       text-align: center;
+    }
+
+    input.texto:hover {
+      background: rgb(55, 182, 182);
+    }
+
+    input.texto:focus {
+      background: rgb(55, 182, 182);
     }
 
     textarea.ttexto {
@@ -86,14 +97,19 @@ img.pie {
       min-height: 5vh;
       max-height: 12vh;
       margin-bottom: 1vh;
-      border-radius: 25%;
+      border-radius: 5%;
       border: 0;
       background: rgb(47, 133, 133);
+      transition: all 0.3s ease-in-out;
     }
 
     textarea.ttexto::placeholder {
       color: white;
       text-align: center;
+    }
+
+    textarea.ttexto:hover {
+      background: rgb(55, 182, 182);
     }
 
     input.number {
@@ -103,6 +119,7 @@ img.pie {
       border-radius: 25%;
       border: 0;
       background: rgb(47, 133, 133);
+      transition: all 0.3s ease-in-out;
     }
 
     input[type="number"]::-webkit-inner-spin-button,
@@ -114,6 +131,10 @@ img.pie {
     input.number::placeholder {
       color: white;
       text-align: center;
+    }
+
+    input.number:hover {
+      background: rgb(55, 182, 182);
     }
 
     button.boton {
@@ -129,6 +150,15 @@ img.pie {
         margin: auto;
       }
     }
+
+    button.boton:hover {
+      background: rgb(55, 182, 182);
+    }
+  }
+
+  .inputs:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.925);
+    background: rgb(104, 228, 186);
   }
 }
 
@@ -142,6 +172,7 @@ img.pie {
   margin-right: auto;
   border-radius: 4%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.637);
+  transition: all 0.3s ease-in-out;
 
   h2 {
     font-size: 140%;
@@ -163,6 +194,11 @@ img.pie {
   }
 }
 
+.horario:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.925);
+  background: rgb(240, 230, 138);
+}
+
 .contacto {
   margin-left: auto;
   margin-right: auto;
@@ -171,6 +207,7 @@ img.pie {
   border-radius: 4%;
   background-color: rgb(210, 154, 212);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.74);
+  transition: all 0.3s ease-in-out;
 
   h2 {
     font-size: 140%;
@@ -187,18 +224,22 @@ img.pie {
     word-break: break-word;
   }
 
-  .bi.bi-instagram:hover{
+  .bi.bi-instagram:hover {
     color: rgb(230, 62, 216);
   }
 
-  .bi.bi-whatsapp:hover{
-      color: rgb(49, 201, 49);
+  .bi.bi-whatsapp:hover {
+    color: rgb(49, 201, 49);
   }
 
-  .bi.bi-envelope:hover{
-      color: rgb(0, 0, 255);
+  .bi.bi-envelope:hover {
+    color: rgb(0, 0, 255);
   }
+}
 
+.contacto:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.925);
+  background-color: rgb(222, 165, 224);
 }
 
 h3.avda {
@@ -206,9 +247,7 @@ h3.avda {
 }
 
 svg.bi.bi {
-    margin: 10px;
-    width: 3vh;
-    color: black;
+  margin: 10px;
+  width: 3vh;
+  color: black;
 }
-
-

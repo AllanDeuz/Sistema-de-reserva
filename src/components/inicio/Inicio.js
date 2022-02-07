@@ -28,7 +28,6 @@ const Inicio = () => (
 
                     <Carrusel/>
 
-
                 </div>
 
             </main>

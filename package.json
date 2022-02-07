@@ -2,7 +2,7 @@
   "name": "sistema-de-reserva",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://AllanDeuz.github.io/Sistema-de-Reserva",
+  "homepage": "https://testreact2022.netlify.app",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",

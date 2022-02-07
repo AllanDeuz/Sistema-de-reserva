@@ -2,10 +2,7 @@ body {
   background: #c6eaee !important; /*color fondo de pagina*/
 }
 
-div#global {
-  margin-left: -1%;
-  margin-right: -1%;
-}
+
 
 /*INICIO HEADER*/
 
@@ -53,10 +50,7 @@ ul.navbar li a:hover {
 
 /*INICIO MAIN*/
 
-.main {
-  margin-top: 1%;
-  padding-top: 1%;
-}
+
 
 .container {
   width: 95%; /*total de tamaño a usar en pagina*/
@@ -78,6 +72,7 @@ ul.navbar li a:hover {
   margin-right: 20px;
   width: 100%;
   max-width: 550px;
+
   transition: all 0.4s ease-in-out;
 }
 
@@ -118,6 +113,10 @@ ul.navbar li a:hover {
 }
 
 /* --- --- CAROUSEL --- --- */
+
+img.carrusel {
+  width: 100%;
+}
 
 div.portada {
   display: flex;
@@ -242,4 +241,3 @@ h2.numero {
   display: -webkit-box;
 }
 /*FIN MAIN*/
-

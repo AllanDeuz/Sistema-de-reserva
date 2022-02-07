@@ -20,7 +20,6 @@ function Carrusel() {
         {
           src: require('../../img/piscina/slider/im3.jpg'),
           altText: 'Slide 1',
-
           header: 'Slide 1 Header'
         },
         {
@@ -89,7 +88,7 @@ function Carrusel() {
 				onExited={() => setAnimating(false)}
 				onExiting={() => setAnimating(true)}
 			>
-				<img src={item.src} alt={item.altText}/>
+				<img src={item.src} alt={item.altText} className="carrusel"/>
 			</CarouselItem>
 		);
 	});
